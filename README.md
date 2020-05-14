@@ -4,7 +4,7 @@
 
 ![screenshot](https://i.imgur.com/oSZTFbm.png)
 
-The main goal on this project is to put into practice Factory Functions and The Module Pattern concepts along with the main concepts of Object Oriented Programming. Particularly, classes/objects and how to access their methods and attributes.
+This is a copy of a previous project, but with tests added to it .
 
 ## Built With
 
@@ -12,15 +12,11 @@ The main goal on this project is to put into practice Factory Functions and The 
 - CSS
 - JavaScript
 
-## Live Demo
-
-[Live Demo Link](https://sofibretz.github.io/tic_tac_toe_js/)
-
 ## Getting Started
 
 - Clone this project on your computer.
 - Open the files on you text editor.
-- Open the .html on your browser to see the future changes.
+
 
 ### Prerequisites
 
@@ -28,16 +24,12 @@ The main goal on this project is to put into practice Factory Functions and The 
 
 ### Install
 
-- Install a text editor (if you don't have already).
-- Clone the project to your computer.
 
-## Authors
+- $ npm install
+- $ npm test
 
-👤 **Sofi Bretz**
+## Author
 
-- Github: [@SofiBretz](https://github.com/SofiBretz)
-- Twitter: [@BretzSofi](https://twitter.com/BretzSofi)
-- Linkedin: [sofibretz](https://www.linkedin.com/in/sofibretz/)
 
 👤 **Andres Rodriguez**
 

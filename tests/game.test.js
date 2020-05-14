@@ -1,4 +1,4 @@
-const { gameFlow, Player } = require('./game');
+const { gameFlow, Player } = require('../js/index');
 
 const player1 = Player('player1', 'X', '#add8e6');
 const player2 = Player('player2', 'O', '#ffa07a');
