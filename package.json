@@ -4,7 +4,7 @@
   "description": "js tic tac toe game",
   "main": "./js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "lint": "eslint ./js/*.js --fix"
   },
   "repository": {
@@ -21,5 +21,11 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jest": "^26.0.1"
   }
 }
