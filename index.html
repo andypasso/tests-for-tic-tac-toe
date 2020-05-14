@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Tic Tac Toe Game</h1>
+      <h2 id="gameText"></h2>
+    </header>
+    <main>
+      <div
+        id="boardContainer"
+        style="grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr);"
+      >
+        <div class="cell botb rightb" id="1"></div>
+        <div class="cell botb rightb" id="2"></div>
+        <div class="cell botb" id="3"></div>
+        <div class="cell botb rightb" id="4"></div>
+        <div class="cell botb rightb" id="5"></div>
+        <div class="cell botb" id="6"></div>
+        <div class="cell rightb" id="7"></div>
+        <div class="cell rightb" id="8"></div>
+        <div class="cell" id="9"></div>
+      </div>
+
+      <div class="inputs">
+        <div class="playernames">
+          <input type="text" id="player1Name" placeholder="Player One" />
+          <input type="text" id="player2Name" placeholder="Player Two" />
+        </div>
+        <div class="button">
+          <button id="startGame">START GAME</button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="js/index.js"></script>
+</html>

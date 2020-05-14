@@ -1,0 +1,94 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/46/fb/37/46fb37dc1d70120077776842fc09325c.jpg);
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Annie Use Your Telescope", cursive;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Annie Use Your Telescope", cursive;
+  margin-bottom: 60px;
+  color:white;
+}
+
+.boxes {
+  text-align: center;
+  line-height: 150px;
+  font-size: 75px;
+}
+
+.rightb {
+  border-right: solid 5px white;
+}
+
+.botb {
+  border-bottom: solid 5px white;
+}
+
+#boardContainer {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  width: 450px;
+  height: 450px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.col {
+  background-color: aqua;
+  height: 400px;
+}
+
+.cell {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.playernames {
+  margin-bottom: 10px;
+  display: flex;
+  width: 100;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+input {
+  margin: 8px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#startGame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 366px;
+  border-radius: 10px;
+  border-color: white;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: white;
+  font-family: "Annie Use Your Telescope", cursive;
+}
