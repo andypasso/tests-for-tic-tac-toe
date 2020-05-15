@@ -1,4 +1,4 @@
-const { gameFlow, Player } = require('../js/index');
+const { gameFlow, Player } = require('./game');
 
 const player1 = Player('player1', 'X', '#add8e6');
 const player2 = Player('player2', 'O', '#ffa07a');
@@ -95,10 +95,10 @@ describe('game winning patterns', () => {
 
       describe('switch player', () => {
         const player = gameFlow().switchPlayer(currentPlayer, player1, player2);
-        it('switches player', () => {
-          expect(Player).toBe(player2);
+        it('switch player', () => {
+          expect(player).toBe(player2);
         });
-
+        
         it('game winner', () => {
           player2.win = true;
           currentPlayer = player;
